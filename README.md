@@ -1,10 +1,6 @@
 # AFProbe
 ## Description
 A sample project to demonstrate how AF SDK is used by Seeq.
-## Requirements
-* Should be self contained
-* Should be able to control the level of parallelism
-* Should be able to control what attributes are consumed
 
 ## Build
 
