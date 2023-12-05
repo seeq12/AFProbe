@@ -25,10 +25,10 @@ Arguments:
   -a, --af_server_id=VALUE   AF Server ID.
   -u, --username=VALUE       Optional username.
   -p, --password=VALUE       Optional password.
-  -s, --start=VALUE          Request start (ISO time. It defaults to 2019-01-02T00:00:00.0Z).
-  -e, --end=VALUE            Request end (ISO time). It defaults to 2023-11-02T00:00:00.0Z
+  -s, --start=VALUE          Request start (ISO time. It defaults to 2019-01-02T00:00:00.0Z) if not provided.
+  -e, --end=VALUE            Request end (ISO time). It defaults to 2023-11-02T00:00:00.0Z  if not provided.
   -c, --samples_per_chunk=VALUE
-                             Maximum number of samples to get in a chunk. It default to 5000000
+                             Maximum number of samples to get in a AF request. It default to 5000000.
   -t, --threads=VALUE        Max degree of parallelism.
   -f, --file=VALUE           File from where to read the data IDs (one per line).
 ```
