@@ -8,7 +8,8 @@ A sample project to demonstrate how AF SDK is used by Seeq.
 
 ## Build
 
-First we need to get the dependencies. This is done by running the following command in the root of the project:
+First we may need to get the dependencies. This step is only needed if your IDE is not getting them automatically. 
+This can be done by running the following command in the root of the project:
 ```commandline
 nuget install packages.config -o packages
 ```
