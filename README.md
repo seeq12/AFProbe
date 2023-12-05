@@ -1,4 +1,4 @@
-# AFProbe
+# AFProbe_
 ## Description
 A sample project to demonstrate how AF SDK is used by Seeq.
 
